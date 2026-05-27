@@ -1,0 +1,33 @@
+
+name: Update LeetCode Repo Stats
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'easy/**'
+      - 'medium/**'
+      - 'hard/**'
+      - 'update-stats.sh'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Ejecutar script de actualizacion
+        uses: ./update-stats.sh
+
+      - name: Commit y push de los cambios
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: actualizar conteo de directorios en el README.md [skip ci]"
+          file_pattern: README.md
+
+      
