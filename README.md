@@ -8,7 +8,7 @@ Bienvenido a mi repositorio de soluciones de LeetCode. Aquí documento mi práct
 
 *Esta sección se actualiza dinámicamente de forma automática usando GitHub Actions y Bash cada vez que subo una nueva solución.*
 
-- **🟢 Easy:** <!-- EASY_COUNT -->0<!-- END_EASY_COUNT -->
+- **🟢 Easy:** <!-- EASY_COUNT -->5<!-- END_EASY_COUNT -->
 - **🟡 Medium:** <!-- MEDIUM_COUNT -->0<!-- END_MEDIUM_COUNT -->
 - **🔴 Hard:** <!-- HARD_COUNT -->0<!-- END_HARD_COUNT -->
 
