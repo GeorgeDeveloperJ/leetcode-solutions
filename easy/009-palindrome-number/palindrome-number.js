@@ -6,7 +6,7 @@ function isPalindrome(x) {
         revertedNumber = (revertedNumber * 10) + (x  % 10);
         x = Math.floor(x / 10);
     }
-
-
+    return x === revertedNumber || x === Math.floor(revertedNumber / 10);
+}
 // Tests
 console.log(isPalindrome(121));
