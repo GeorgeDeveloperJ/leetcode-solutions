@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Ejecutar script de actualizacion
-        uses: ./update-stats.sh
+        run: ./update-stats.sh
 
       - name: Commit y push de los cambios
         uses: stefanzweifel/git-auto-commit-action@v5
