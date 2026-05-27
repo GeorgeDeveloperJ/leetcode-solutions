@@ -19,8 +19,8 @@ Las soluciones están categorizadas estrictamente por nivel de dificultad. Cada 
 ```text
 📦 leetcode-solutions
  ┣ 📂 easy
- ┃ ┣ 📂 0-two-sum
- ┃ ┣ 📂 0-palindrome-number
+ ┃ ┣ 📂 001-two-sum
+ ┃ ┣ 📂 009-palindrome-number
  ┃ ┗ ...
  ┣ 📂 medium
  ┃ ┗ ...
