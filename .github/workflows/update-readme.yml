@@ -9,7 +9,7 @@ on:
       - 'easy/**'
       - 'medium/**'
       - 'hard/**'
-      - 'update-stats.sh'
+      - 'scripts/update-stats.sh'
 
 jobs:
   update-readme:
@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Ejecutar script de actualizacion
-        run: ./update-stats.sh
+        run: scripts/update-stats.sh
 
       - name: Commit y push de los cambios
         uses: stefanzweifel/git-auto-commit-action@v7 
